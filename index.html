@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaptionPlus - Captioning & Transcription</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #34495e;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .cta {
+            margin: 20px 0;
+        }
+        button {
+            background: #2980b9;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #3498db;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to CaptionPlus</h1>
+        <p>Your go-to platform for Captioning & Transcription Services</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#upload">Upload</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="home">
+        <h2>Why Choose CaptionPlus?</h2>
+        <p>Accurate, Fast, and Affordable transcription and captioning for all your audio and video files.</p>
+        <div class="cta">
+            <button onclick="window.location.href='#services'">View Services</button>
+            <button onclick="window.location.href='#upload'">Upload File</button>
+        </div>
+    </div>
+    <div class="container" id="services">
+        <h2>Our Services</h2>
+        <ul style="list-style: none; padding: 0;">
+            <li>✔ Captioning & Subtitling</li>
+            <li>✔ Transcription for videos/audio over 1 hour</li>
+            <li>✔ Multi-language support</li>
+            <li>✔ ADA-compliant Accessibility Features</li>
+        </ul>
+    </div>
+    <div class="container" id="upload">
+        <h2>Upload Your File</h2>
+        <p>Drag and drop your audio/video file below or click to select a file.</p>
+        <input type="file" accept="audio/*,video/*" style="margin: 20px auto;">
+        <button>Submit File</button>
+    </div>
+    <footer>
+        <p>&copy; 2025 CaptionPlus. All rights reserved.</p>
+    </footer>
+</body>
+</html>
